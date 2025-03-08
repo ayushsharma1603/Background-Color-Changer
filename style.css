@@ -1,0 +1,56 @@
+/* * {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+#canvas {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adds spacing between elements */
+}
+
+/* h1 {
+    text-align: center;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#brown {
+    background-color: brown;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#navy {
+    background-color: navy;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
